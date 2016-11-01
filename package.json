@@ -2,6 +2,10 @@
   "name": "angular-demo",
   "version": "1.0.0",
   "description": "Angular demo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SFWLtd/angular2-demo.git"
+  },
   "scripts": {
     "start": "gulp serve",
     "tslint": "tslint -c tslint.json app/**/*.ts",
