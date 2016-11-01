@@ -11,13 +11,15 @@
 			</div>
 		</form>
 	</div>
-	<div *ngIf="cat.name">
-		{{cat.name | uppercase}} is the best!
-		<div *ngIf="cat.name == 'mittens'">
-			<button class="btn" (click)="cat.meow()">Meow</button>
-			<button class="btn" (click)="cat.purr()">Purr</button>
-			<div *ngIf="cat.says">
-				{{cat.name}} says: {{cat.says}}
+	<div class="row">
+		<div *ngIf="cat.name">
+			{{cat.name | uppercase}} is the best!
+			<div *ngIf="cat.name == 'mittens'">
+				<button class="btn btn-default" (click)="cat.meow()">Meow</button>
+				<button class="btn btn-default" (click)="cat.purr()">Purr</button>
+				<div *ngIf="cat.says">
+					{{cat.name}} says: {{cat.says}}
+				</div>
 			</div>
 		</div>
 	</div>

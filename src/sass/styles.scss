@@ -4,6 +4,7 @@ $sfw-ruby: #CE0F69;
 $sfw-steel: #616161;
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -29,8 +30,8 @@ $sfw-steel: #616161;
 body {
     margin: 0;
     background-color: #efefef;
-    font-family: Quicksand;
-    font-size: 30px;
+    font-family: 'Noto Serif';
+    font-size: 20px;
 }
 
 .top-banner {
@@ -40,20 +41,14 @@ body {
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
     color: white;
     white-space: nowrap;
-    font-size: 30px;
     padding: 20px 50px;
     margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Quicksand';
 }
 
 input[type=text]
 {
-    line-height: 30px;
-    font-size: 30px;
     height: auto;
     margin: 20px 0;
-}
-
-.btn
-{
-    font-size: 30px;
 }
